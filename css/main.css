@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.center {
+    width: 100%;
+    max-width: 1880px;
+    padding: 0 2%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo h2 {
+    color: white;
+}
+
+.alignflex {
+    justify-content: space-between;
+}
+
+header {
+    margin: 20px 0;
+}
+
+.menu-btn {
+    display: inline-block;
+}
+
+.menu-items a {
+    display: inline-block;
+    color: white;
+    margin: 0 14px;
+    text-decoration: none;
+}
+
+.menu-items a:hover,
+a.ex1:active {
+    color: #f9004d;
+}
+
+.menu-btn button {
+    border: 1px solid white;
+    padding: 10px 14px;
+    color: white;
+    background-color: transparent;
+    border-radius: 8px;
+    margin: 0 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu-btn button:hover {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+
+.main-1 h1 {
+    font-size: 110px;
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo i {
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+}
+
+.diferencial-single i {
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+.diferencial-single h3{
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.diferencial-single p{
+    color: white;
+    font-size: 19px;
+}
+
+.diferencial-single {
+    margin: 0 30px;
+}
+
+.about{
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+    margin-top: 50px;
+    
+}
+
+.about-us h3{
+    padding-left: 500px;
+    margin-top: 20px;
+}
+
+.about-us p{
+    padding-left: 600px;
+    margin-top: 20px;
+}
+
+.about-us a{
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    padding-left: 500px;
+    margin-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.diferencial-about i {
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+}
+
+.diferencial-about h3{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.diferencial-about p{
+    color: white;
+    font-size: 29px;
+}
+
+.diferencial-about {
+    margin: 0 30px;
+}
+
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
