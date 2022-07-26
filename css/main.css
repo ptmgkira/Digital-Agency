@@ -81,14 +81,14 @@ a.ex1:active {
     font-size: 60px;
 }
 
-.diferencial-single h3{
+.diferencial-single h3 {
     color: white;
     font-size: 19px;
     font-weight: bold;
     margin: 10px 0;
 }
 
-.diferencial-single p{
+.diferencial-single p {
     color: white;
     font-size: 19px;
 }
@@ -97,23 +97,23 @@ a.ex1:active {
     margin: 0 30px;
 }
 
-.about{
-    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+.about {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
     margin-top: 50px;
-    
 }
 
-.about-us h3{
+
+.about-us h3 {
     padding-left: 500px;
     margin-top: 20px;
 }
 
-.about-us p{
+.about-us p {
     padding-left: 600px;
     margin-top: 20px;
 }
 
-.about-us a{
+.about-us a {
     background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -130,24 +130,73 @@ a.ex1:active {
     font-size: 70px;
 }
 
-.diferencial-about h3{
+.diferencial-about h3 {
     color: white;
     font-size: 12px;
     font-weight: bold;
     margin: 10px 0;
 }
 
-.diferencial-about p{
+.diferencial-about p {
     color: white;
     font-size: 29px;
 }
 
 .diferencial-about {
     margin: 0 30px;
+    padding-left: 30px;
 }
 
 
-footer{
+.diferencial-services i {
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+}
+
+.diferencial-services h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.diferencial-services p {
+    color: white;
+    font-size: 15px;
+}
+
+.diferencial-services {
+    margin: 0 30px;
+}
+
+.services a {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.diferenciais-title-services{
+    padding-left: 310px;
+    margin-bottom: 90px;
+}
+
+.diferenciais-title-services h3{
+    color: white;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.diferenciais-title-services p{
+    color: white;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+footer {
     background-color: #333;
     text-align: center;
     padding: 8px;
